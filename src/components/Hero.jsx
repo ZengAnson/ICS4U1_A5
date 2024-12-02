@@ -1,31 +1,24 @@
 import "./Hero.css";
 import Collage from "../assets/images/collage.jpeg";
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router";
 
 function Hero() {
     const navigate = useNavigate();
 
-    function register() {
-        return navigate ("/register");
-    }
-    function login(){
-        return navigate("login");
-    }
-
     return (
-        <div class="hero">
+        <div className="hero">
             <img src={Collage} alt="collage" id="hero-image"></img>
-            <div class="shadow"></div>
-            <div class="hero-frame">
-                <div class="title-box">
-                    <div class="title-text">
+            <div className="shadow"></div>
+            <div className="hero-frame">
+                <div className="title-box">
+                    <div className="title-text">
                         <h4>For a Late Friday Night</h4>
                         <h1>Any Show. Every Show.</h1>
                         <h2>Stream Now</h2>
                         <h4>Start Your 1 Month Free Trial Today</h4>
                     </div>
-                    <button class="buttons account" onClick={(event) => navigate ("/register")}>Create Account</button>
-                    <button class="buttons signup" onClick={(event) => navigate("login")}>Sign Up</button>
+                    <button className="buttons account" onClick={() => navigate ("/register")}>Create Account</button>
+                    <button className="buttons signup" onClick={() => navigate("login")}>Sign In</button>
                 </div>
             </div>
         </div>

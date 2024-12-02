@@ -1,8 +1,14 @@
 import Header from "../components/Header.jsx";
+import Register from "../components/Register.jsx";
+import Footer from "../components/Footer.jsx";
 
 function RegisterView() {
     return (
-        <Header />
+        <div>
+            <Header />
+            <Register />
+            <Footer />
+        </div>
     )
 }
 
