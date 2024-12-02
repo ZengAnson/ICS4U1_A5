@@ -1,4 +1,4 @@
-import "./Login.css";
+import "./Account.css";
 import Collage from "../assets/images/collage.jpeg";
 import { useNavigate } from "react-router";
 import { useState } from "react";
@@ -8,11 +8,11 @@ function Login() {
     const [pass, setPass] = useState("");
     const navigate = useNavigate();
 
-    function Log() {
+    function log() {
         if (pass === "iloveyou"){
             return;
         } else {
-            alert("Password Incorrect");
+            alert("Password incorrect");
         }
     }
     
@@ -21,15 +21,15 @@ function Login() {
             <img src={Collage} alt="collage" id="hero-image"></img>
             <div className="shadow"></div>
             <div className="hero-frame">
-                <div className="login-box">
+                <div className="account-box">
                     <div className="account-title">Log In</div>
-                    <label className="account-text">Email</label>
+                    <label className="account-text">Email:</label>
                     <input className="account-input" type="text" value={email} onChange={(event) => {setEmail(event.target.value)}}></input>
-                    <label className="account-text">Password</label>
-                    <input className="account-input" type="text" value={pass} onChange={(event) => {setPass(event.target.value)}}></input>
+                    <label className="account-text">Password:</label>
+                    <input className="account-input" type="password" value={pass} onChange={(event) => {setPass(event.target.value)}}></input>
                     <label>Don't have an account? </label>
                     <label className="account-no" onClick={() => navigate("/register")}>Click here</label>
-                    <button className="account-button" onClick={() => Log()}>LOGIN</button>
+                    <button className="account-button" onClick={() => log()}>LOGIN</button>
                 </div>
             </div>
         </div>

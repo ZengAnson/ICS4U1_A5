@@ -26,16 +26,16 @@ function Register() {
             <div className="hero-frame">
                 <div className="account-box">
                     <div className="account-title">Create Account</div>
-                    <label className="account-text">First Name</label>
+                    <label className="account-text">First Name:</label>
                     <input className="account-input" type="text" value={firstN} onChange={(event) => {setFirstN(event.target.value)}}></input>
-                    <label className="account-text">Last Name</label>
+                    <label className="account-text">Last Name:</label>
                     <input className="account-input" type="text" value={lastN} onChange={(event) => {setLastN(event.target.value)}}></input>
-                    <label className="account-text">Email</label>
+                    <label className="account-text">Email:</label>
                     <input className="account-input" type="text" value={email} onChange={(event) => {setEmail(event.target.value)}}></input>
-                    <label className="account-text">Password</label>
-                    <input className="account-input" type="text" value={pass} onChange={(event) => {setPass(event.target.value)}}></input>
-                    <label className="account-text">Re-enter Password</label>
-                    <input className="account-input" type="text" value={rePass} onChange={(event) => {setRePass(event.target.value)}}></input>
+                    <label className="account-text">Password:</label>
+                    <input className="account-input" type="password" value={pass} onChange={(event) => {setPass(event.target.value)}}></input>
+                    <label className="account-text">Re-enter Password:</label>
+                    <input className="account-input" type="password" value={rePass} onChange={(event) => {setRePass(event.target.value)}}></input>
                     <label>Already have an account? </label>
                     <label className="account-no" onClick={() => navigate ("/login")}>Click here</label>
                     <button className="account-button" onClick={() => create()}>CREATE</button>
