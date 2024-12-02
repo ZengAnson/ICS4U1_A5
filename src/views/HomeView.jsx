@@ -8,7 +8,7 @@ function HomeView() {
         <div>
             <Header />
             <Hero />
-            <Feature />
+            {/* <Feature /> */}
             <Footer />
         </div>
     )

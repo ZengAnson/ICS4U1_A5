@@ -8,7 +8,7 @@
     grid-template-columns: repeat(4, 1fr);
 }
 
-.grid{
+.footer-grid{
     color: white;
     justify-self: center;
     font-size:15px;
