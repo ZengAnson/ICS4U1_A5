@@ -18,7 +18,7 @@ function Hero() {
                         <h4>Start Your 1 Month Free Trial Today</h4>
                     </div>
                     <button className="buttons account" onClick={() => navigate ("/register")}>Create Account</button>
-                    <button className="buttons signup" onClick={() => navigate("login")}>Sign In</button>
+                    <button className="buttons signup" onClick={() => navigate("/login")}>Sign In</button>
                 </div>
             </div>
         </div>

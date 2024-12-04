@@ -10,7 +10,7 @@ function Login() {
 
     function log() {
         if (pass === "iloveyou"){
-            return;
+            return navigate("/test");
         } else {
             alert("Password incorrect");
         }
