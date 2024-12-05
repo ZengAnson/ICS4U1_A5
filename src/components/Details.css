@@ -1,4 +1,4 @@
-.details-movie{
+.details-movie {
     width: 75%;
     background-color: #00b85f;
     padding: 30px;
@@ -8,14 +8,31 @@
     color: white;
 }
 
-.details-title{
+.details-title {
     font-size: 35px;
 }
 
-.details-tagline{
+.details-tagline {
     line-height: 20px;
 }
 
-.details-overview{
+.details-overview {
     line-height: 25px;
+}
+
+#poster {
+    left: 50%;
+}
+
+.trailers-section{
+    padding: 25px 0 0;
+}
+.trailers-grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.trailer-thumbnail{
+    width:410px;
 }

@@ -1,7 +1,7 @@
 .header {
     position: relative;
     background-color: #00d76f;
-    width: 100vw;
+    width: 100%;
     min-width: 600px;
     height: 60px;
     color: white;
@@ -33,7 +33,7 @@
 
 .header-frame {
     position: relative;
-    width: 100vw;
+    width: 100%;
     min-width: 600px;
     top: 15px;
 }

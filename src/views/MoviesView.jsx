@@ -16,7 +16,7 @@ function Movies() {
         {id: 10402, genre: "Music"},
         {id: 9648, genre: "Mystery"},
         {id: 878, genre: "Sci-Fi"},
-        {id: 10770, genre: "TV"},
+        {id: 53, genre: "Thriller"},
     ]
 
     return (

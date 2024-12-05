@@ -10,7 +10,7 @@ function Login() {
 
     function log() {
         if (pass === "iloveyou") {
-            return navigate("/movies");
+            return navigate("/movies/genre/28");
         } else {
             alert("Password incorrect");
         }

@@ -36,7 +36,7 @@ function Features() {
                     </div>
                 </div>
             ) : (
-                <p>Loading...</p>
+                <p>Movies Loading...</p>
             )}
         </div>
     )
