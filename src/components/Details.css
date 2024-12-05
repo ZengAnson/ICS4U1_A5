@@ -20,19 +20,16 @@
     line-height: 25px;
 }
 
-#poster {
-    left: 50%;
-}
-
-.trailers-section{
+.trailers-section {
     padding: 25px 0 0;
 }
-.trailers-grid{
+
+.trailers-grid {
     display: flex;
     flex-wrap: wrap;
     gap: 1em;
 }
 
-.trailer-thumbnail{
-    width:410px;
+.trailer-thumbnail {
+    width: 410px;
 }

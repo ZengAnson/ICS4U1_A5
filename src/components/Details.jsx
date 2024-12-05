@@ -28,7 +28,7 @@ function Details() {
                 <p><strong>Runtime: </strong>{movie.runtime} minutes</p>
                 <p><strong>Revenue: </strong>${movie.revenue}</p>
             </div>
-            <img id="poster" width="300px" src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`} /><br></br>
+            <img id="poster" width="300px" src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`} />
             <div className="trailers-section">
                 <h2>Trailers</h2>
                 <div className="trailers-grid">
