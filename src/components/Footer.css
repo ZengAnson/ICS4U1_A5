@@ -1,5 +1,5 @@
-.footer{
-    width:100vw;
+.footer {
+    width: 100vw;
     min-width: 600px;
     padding: 35px 0;
     background-color: black;
@@ -8,24 +8,25 @@
     grid-template-columns: repeat(4, 1fr);
 }
 
-.footer-grid{
+.footer-grid {
     color: white;
     justify-self: center;
-    font-size:15px;
-    line-height:1.6;
+    font-size: 15px;
+    line-height: 1.6;
 }
 
-a{
+a {
     display: block;
 }
-a:link{
-    color:rgb(217, 217, 217);
+
+a:link {
+    color: rgb(217, 217, 217);
 }
 
-a:hover{
+a:hover {
     color: rgb(255, 255, 255);
 }
 
-a:visited{
-    color:rgb(139, 139, 139);
+a:visited {
+    color: rgb(139, 139, 139);
 }

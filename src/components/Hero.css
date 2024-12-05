@@ -1,4 +1,4 @@
-.hero{
+.hero {
     position: relative;
     height: 575px;
     left: 0;
@@ -7,14 +7,14 @@
     min-width: 600px;
 }
 
-#hero-image{
+#hero-image {
     position: absolute;
     width: 1540px;
     right: 0;
 }
 
-.shadow{
-    position:absolute;
+.shadow {
+    position: absolute;
     min-width: 600px;
     width: 100vw;
     height: 575px;
@@ -23,13 +23,13 @@
     opacity: 0.9;
 }
 
-.hero-frame{
+.hero-frame {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.title-box{
+.title-box {
     position: absolute;
     top: 125px;
     padding: 10px;
@@ -37,31 +37,31 @@
     min-width: 400px;
     letter-spacing: 2px;
     font-size: 20px;
-    color:white;
+    color: white;
     line-height: 1.8;
 }
 
-.title-text{
+.title-text {
     padding: 0 0 15px;
 }
 
-.buttons{
+.buttons {
     position: absolute;
     border: none;
-    border-radius:5px;
-    color:white;
+    border-radius: 5px;
+    color: white;
     text-align: center;
     width: 150px;
     height: 30px;
     background-color: #00d76f;
     font-size: 17px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
-.buttons:hover{
-    background-color:#018746;
+.buttons:hover {
+    background-color: #018746;
 }
 
-.signup{
+.signup {
     left: 195px;
 }

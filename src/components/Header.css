@@ -27,10 +27,14 @@
     font-style: normal;
 }
 
+.webtitle:hover{
+    color: rgb(237, 237, 237)
+}
+
 .header-frame {
     position: relative;
     width: 100vw;
-    min-width: 600px; 
+    min-width: 600px;
     top: 15px;
 }
 
@@ -50,14 +54,14 @@
 }
 
 
-::placeholder{
+::placeholder {
     color: white;
     opacity: 1;
 }
 
-#search-button{
+#search-button {
     position: absolute;
     right: 230px;
-    background-color:transparent; 
-    border-color:transparent;
+    background-color: transparent;
+    border-color: transparent;
 }
