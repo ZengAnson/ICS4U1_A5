@@ -11,7 +11,7 @@ function Features() {
                 `https://api.themoviedb.org/3/movie/now_playing?api_key=${import.meta.env.VITE_TMDB_KEY}`
             );
             setMovies(response.data.results);
-            console.log (response.data.results);
+            console.log(response.data.results);
         })();
     }, []);
 

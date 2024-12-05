@@ -2,26 +2,27 @@ import Header from "../components/Header.jsx";
 import Genre from "../components/Genre.jsx";
 import Footer from "../components/Footer.jsx";
 import { Outlet } from "react-router-dom";
+import "./MoviesView.css";
 
 
 function Movies() {
     const gen = [
-        {genre: "Action", id: 28},
-        {genre: "Adventure", id: 12},
-        {genre: "Animation", id: 16},
-        {genre: "Comedy", id: 35},
-        {genre: "Fantasy", id: 14},
-        {genre: "Horror", id: 27},
-        {genre: "Music", id: 10402},
-        {genre: "Mystery", id: 9648},
-        {genre: "Sci-Fi", id: 878},
-        {genre: "TV", id: 10770},
+        {id: 28, genre: "Action"},
+        {id: 12,genre: "Adventure"},
+        {id: 16, genre: "Animation"},
+        {id: 35, genre: "Comedy"},
+        {id: 14, genre: "Fantasy"},
+        {id: 27, genre: "Horror"},
+        {id: 10402, genre: "Music"},
+        {id: 9648, genre: "Mystery"},
+        {id: 878, genre: "Sci-Fi"},
+        {id: 10770, genre: "TV"},
     ]
 
     return (
         <div>
             <Header />
-            <div>
+            <div className="movie-section">
                 <Genre genreList={gen} />
                 <Outlet />
             </div>
@@ -29,4 +30,5 @@ function Movies() {
         </div>
     )
 }
+
 export default Movies;
